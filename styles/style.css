@@ -541,13 +541,17 @@ margin-top: 32px;
         margin-top: 35px;
        }
 .satorini {
-border: 2px solid black;
+border: 2px solid #FFF;
 width: 579px;
 height: 389px;
+margin-left: 509px;
+border-radius: 16px;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
 
 }
 .icon {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 320px;
     height: 30px;
     margin-top: 50px;
@@ -557,11 +561,64 @@ height: 389px;
 .icon img{
 
 }
-. icon tour {
-border: 2px, solid darkorchid;
-width: 100px;
+.tour {
+/* border: 2px solid darkorchid; */
+width: 196px;
 height: 30px;
+margin-left: 50px;
+margin-top: 20px;
 
+
+
+
+}
+
+.tour h1 {
+    margin: auto;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800px;
+    font-style: normal;
+    text-align: justify;
+    line-height: normal;
+}
+
+.tour h3 {
+    margin: auto;
+width: 188px;
+height: 50px;
+color: #FF5400;
+font-size: 17px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.tour p {
+    /* border: 2px solid red; */
+    width: 452px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    color: #5A5A5D;
+}
+
+.tour button {
+    border: 2px solid red;
+    color: #FFF;
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;  
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    
+    
 }
 
 
