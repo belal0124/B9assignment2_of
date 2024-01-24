@@ -72,15 +72,20 @@ body {
         max-width: 1170px;
         height: 500px;
         margin: 0 auto;
+        
     }
 
     .banner-container {
-        border: 2px solid red;
+        /* border: 2px solid red; */
+        margin-top: auto;
         width: 800px;
         height: 250px;
         align-items: center;
         margin-left: 185px; 
+        
         justify-content: center; 
+        /* margin-top: 100px; */
+        
            
     }
     .banner-container p {
@@ -108,7 +113,7 @@ body {
 
 .where {
 color: rgba(19, 19, 24, 0.50);
-text-align: left;
+text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -122,7 +127,7 @@ margin-left: 75px;
 
     .when {
         color: rgba(19, 19, 24, 0.50);
-        text-align: left;
+        text-align: center;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -134,7 +139,7 @@ margin-left: 75px;
     }
     .select {
         color: rgba(19, 19, 24, 0.50);
-        text-align: left;
+        text-align: center;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -147,7 +152,7 @@ margin-left: 75px;
 
     .find {
         color: rgba(19, 19, 24, 0.50);
-        text-align: right;
+        text-align: center;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -280,7 +285,7 @@ margin-left: 75px;
 }
 
 .section-1 {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     width: 573px;
     height: 300px;
     float: left;
@@ -288,7 +293,7 @@ margin-left: 75px;
 }
 
 .section-1 h1{
-    border: 2px solid beige;
+    /* border: 2px solid beige; */
     font-size: 28px;
     font-weight: 800;
     text-align: center;
@@ -298,7 +303,7 @@ margin-left: 75px;
     height: 35px;
 }
 .section-2 {
-    border: 2px solid rgb(73, 116, 9);
+    /* border: 2px solid rgb(73, 116, 9); */
     width: 573px;
     height: 300px;
     float: right;
@@ -306,14 +311,14 @@ margin-left: 75px;
 }
 .section-3 {
     margin-top: 24px;
-    border: 2px solid rgb(34, 9, 116);
+    /* border: 2px solid rgb(34, 9, 116); */
     width: 374px;
     height: 286px;
     float: left; 
 }
 .section-4 {
     margin-top: 328px;
-    border: 2px solid rgb(116, 9, 32);
+    /* border: 2px solid rgb(116, 9, 32); */
     width: 474px;
     height: 286px;
     margin-left: 394px;
@@ -321,7 +326,7 @@ margin-left: 75px;
 
     .section-5 {
     margin-top: -289px;
-    border: 2px solid rgb(191, 15, 15);
+    /* border: 2px solid rgb(191, 15, 15); */
     width: 274px;
     height: 286px;
     /* float: inline-end; */
@@ -330,7 +335,7 @@ margin-left: 75px;
 
     .section-6 {
     margin-top: 24px;
-    border: 2px solid rgb(34, 9, 116);
+    /* border: 2px solid rgb(34, 9, 116); */
     width: 473px;
     height: 300px;
     float: left; 
@@ -338,7 +343,7 @@ margin-left: 75px;
 
 .section-7 {
     margin-top: 24px;
-    border: 2px solid rgb(34, 9, 116);
+    /* border: 2px solid rgb(34, 9, 116); */
     width: 673px;
     height: 300px;
     float: right; 
@@ -534,7 +539,7 @@ margin-top: 32px;
 
      }
      .fifth-section {
-        border: 2px solid  red;
+        /* border: 2px solid  red; */
         width: 1170px;
         height: 500px;
         margin: 0 auto;
@@ -606,7 +611,7 @@ line-height: normal;
 }
 
 .tour button {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #FFF;
     width: 150px;
     height: 52px;
@@ -623,15 +628,98 @@ line-height: normal;
 
 
 .sixth-section {
-        border: 2px solid  red;
+        /* border: 2px solid  red; */
         width: 1170px;
         height: 500px;
         margin: 0 auto;
         margin-top: 35px;
        }
+       .satorini1{
+        /* border: 2px solid #FFF; */
+        width: 579px;
+        height: 389px;
+        margin-left: 509px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        
+        
+        }
+        .icon {
+            /* border: 2px solid red; */
+            width: 320px;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        
+        .icon img{
+        
+        }
+        .tour {
+        /* border: 2px solid darkorchid; */
+        width: 196px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+        
+        
+        
+        }
+        
+        .tour h1 {
+            margin: auto;
+            color: #131318;
+            font-size: 24px;
+            font-weight: 800px;
+            font-style: normal;
+            text-align: justify;
+            line-height: normal;
+        }
+        
+        .tour h3 {
+            margin: auto;
+        width: 188px;
+        height: 50px;
+        color: #FF5400;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        }
+        
+        .tour p {
+            /* border: 2px solid red; */
+            width: 452px;
+            height: 78px;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 26px;
+            color: #5A5A5D;
+        }
+        
+        .tour button {
+            /* border: 2px solid red; */
+            color: #FFF;
+            width: 150px;
+            height: 52px;
+            border-radius: 8px;
+            background: #FF5400;
+            text-align: center;  
+            font-size: 16px;
+            font-weight: 800;
+            font-style: normal;
+            line-height: normal;
+            
+            
+        }
+        
+
 
        .seventh-section {
-        border: 2px solid  red;
+        /* border: 2px solid  red; */
         width: 1170px;
         height: 500px;
         margin: 0 auto;
